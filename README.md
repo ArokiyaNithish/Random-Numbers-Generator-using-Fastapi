@@ -28,7 +28,7 @@ It is built with:
 ├── random_number.py        # Random number generation logic
 ├── templates/
 │   └── index.html          # Frontend dashboard
-├── requirement.txt.txt     # Python dependencies
+├── requirement.txt.txt     # Python dependencies (current repo filename)
 └── Procfile                # Production startup command
 ```
 
@@ -54,6 +54,8 @@ python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirement.txt.txt
 ```
+
+> Dependency file note: the repository currently uses `requirement.txt.txt` (not `requirements.txt`).
 
 ## Run Locally
 
@@ -110,4 +112,3 @@ gunicorn -k eventlet -w 1 app:app
 
 No license file is currently included.  
 If you plan to open-source this project publicly, add a license such as MIT.
-
