@@ -28,7 +28,7 @@ It is built with:
 ├── random_number.py        # Random number generation logic
 ├── templates/
 │   └── index.html          # Frontend dashboard
-├── requirement.txt.txt     # Python dependencies (current repo filename)
+├── requirements.txt        # Python dependencies
 └── Procfile                # Production startup command
 ```
 
@@ -52,10 +52,8 @@ git clone https://github.com/ArokiyaNithish/Random-Numbers-Generator-using-Fasta
 cd Random-Numbers-Generator-using-Fastapi
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-pip install -r requirement.txt.txt
+pip install -r requirements.txt
 ```
-
-> Dependency file note: the repository currently uses `requirement.txt.txt` (not `requirements.txt`).
 
 ## Run Locally
 
